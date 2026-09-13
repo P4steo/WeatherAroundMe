@@ -1,7 +1,11 @@
 import requests
 from fastapi import FastAPI
 from stations import Station
+from dotenv import load_dotenv
+import os
 
+load_dotenv()
+API_KEY = os.getenv("USER_API_KEY")
 
 BASE_URL = "https://pomiary.gdanskiewody.pl/rest"
 
