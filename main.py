@@ -2,7 +2,7 @@ import requests
 from fastapi import FastAPI
 from stations import Station
 
-API_KEY = "d448361228a74b148915676124814514"
+
 BASE_URL = "https://pomiary.gdanskiewody.pl/rest"
 
 def fetch_stations():
